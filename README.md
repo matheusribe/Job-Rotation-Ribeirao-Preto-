@@ -1,6 +1,4 @@
-# Job-Rotation-Ribeirao-Preto-
-Resolução de problemas propostos no processo seletivo para Estágio Análise e Desenvolvimento - Ribeirão Preto
-# Explicações Questão 3 e 4
+# Explicações Questões 3 e 4
 
 > **Matheus Costa Ribeiro**  [Linkedln](https://www.linkedin.com/in/matheusribe/)
 > 
@@ -25,11 +23,11 @@ Resolução de problemas propostos no processo seletivo para Estágio Análise e
     
     Mesma progressão Aritmética Anterior, nesse caso a razão é 8.
     
-- 1, 1, 2, 3, 5, 8, “13”
+- 1, 1, 2, 3, 5, 8, **“13”**
     
     Sequência de Fibonacci.
     
-- 2, 10, 12, 16, 17, 18, 19, “200”
+- 2, 10, 12, 16, 17, 18, 19, **“200”**
     
     É o próximo numero que começa com a letra D.
     
@@ -42,36 +40,25 @@ Resolução de problemas propostos no processo seletivo para Estágio Análise e
 2. A distância entre as cidade é de 100 km, e há dois pedágios na estrada.
 - Colocando a distância que os veículos se cruzam igual = **“d”**, e a distância que o carro leva para percorrer essa distância a uma velocidade constante de **110 km/h** sendo igual a **“t1”**, dessa forma utilizei a fórmula:
     
-    $$
-    Velocidade = distância /tempo
-    $$
-    
+    > Velocidade = distância /tempo
+    > 
     - Colocando os valores da questão, temos:
         
-        $$
-        110 = d/t1
-        
-        $$
-        
+        > 110 = d/t1
+        > 
     - Reorganizando a fórmula, temos:
+        
+        > t1 = d/110
+        > 
+3. Para o caminhão, levei em conta que ele leva 5 minutos extras em cada pedágio, o que atrasa seu tempo de viagem em 1/6 de hora, visto que **5min * 2 pedágios = 10min; 10min * 6 = 60 minutos**. Portanto, colocando o tempo que leva para percorrer a distância **“d”** sendo **“t2”,** surgi a seguinte equação:
     
-    $$
-    t1 = d/110
-    $$
+    > t2=d/80+1/6
+    > 
+4. Agora igualando as duas equações:
     
-1. Para o caminhão, levei em conta que ele leva 5 minutos extras em cada pedágio, o que atrasa seu tempo de viagem em 1/6 de hora, visto que **5min * 2 pedágios = 10min; 10min * 6 = 60 minutos**. Portanto, colocando o tempo que leva para percorrer a distância **“d”** sendo **“t2”,** surgi a seguinte equação:
-    
-    $$
-    t2=d/80+1/6
-    $$
-    
-2. Agora igualando as duas equações:
-    
-    $$
-    d/t1 = d/(d/80 + 1/6)
-    $$
-    
+    > d/t1 = d/(d/80 + 1/6)
+    > 
     - Ao fazer essa equação, os termos “d” nas duas frações podem ser cancelados.
     - Desse modo, simplificando a equação e após alguns cálculos tempos que aproximadamente a distância entre Ribeirão preto e o ponto de encontro dos dois veículos é **97.24km**.
-3. visto que o ponto de encontro dos dois veículos está localizado em algum lugar entre essas duas cidades. Como o ponto de encontro ocorre exatamente no meio do caminho entre as duas cidades, a distância entre o ponto de encontro e Ribeirão Preto é igual à distância entre o ponto de encontro e Franca, ou seja, ambas as distâncias são iguais a 100 km / 2 = 50 km. Somando essas duas distâncias, temos a distância total entre Ribeirão Preto e o ponto de encontro, assumimos que é de 100 km.
-4. por fim, ao calcular qual veículo está mais próximo de Ribeirão Preto quando eles se cruzam. O carro já percorreu "d" quilômetros, então ainda precisa percorrer 100 - "d" quilômetros para chegar em Franca. Já o caminhão precisa percorrer "d" quilômetros até o ponto de cruzamento e depois ainda precisa percorrer mais 100 + "d" quilômetros para chegar em Ribeirão Preto. **Portanto, o Caminhão está mais próximo de Ribeirão Preto quando eles se cruzam na rodovia.**
+5. visto que o ponto de encontro dos dois veículos está localizado em algum lugar entre essas duas cidades. Como o ponto de encontro ocorre exatamente no meio do caminho entre as duas cidades, a distância entre o ponto de encontro e Ribeirão Preto é igual à distância entre o ponto de encontro e Franca, ou seja, ambas as distâncias são iguais a 100 km / 2 = 50 km. Somando essas duas distâncias, temos a distância total entre Ribeirão Preto e o ponto de encontro, assumimos que é de 100 km.
+6. por fim, ao calcular qual veículo está mais próximo de Ribeirão Preto quando eles se cruzam. O carro já percorreu "d" quilômetros, então ainda precisa percorrer 100 - "d" quilômetros para chegar em Franca. Já o caminhão precisa percorrer "d" quilômetros até o ponto de cruzamento e depois ainda precisa percorrer mais 100 + "d" quilômetros para chegar em Ribeirão Preto. **Portanto, o Caminhão está mais próximo de Ribeirão Preto quando eles se cruzam na rodovia.**
